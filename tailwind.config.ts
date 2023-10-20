@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from "tailwindcss";
+
+export default {
   content: [
     "./components/**/*.{js,vue,ts}",
     "./plugins/**/*.{js,ts}",
@@ -8,6 +9,7 @@ module.exports = {
     "./error.vue",
     "./app.vue",
   ],
+
   theme: {
     extend: {
       fontSize: {
@@ -27,4 +29,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+} satisfies Config;
