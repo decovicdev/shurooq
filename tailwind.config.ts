@@ -24,6 +24,7 @@ export default {
         },
         primary: {
           base: "#F89828",
+          light: "#FDBB30",
         },
       },
     },
