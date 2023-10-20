@@ -1,5 +1,6 @@
-<script setup>
-// If you want to use it in setup, import from the nuxtApp.
+<script setup lang="ts">
+import Header from "~/components/header/Header.vue";
+import Footer from "~/components/footer/Footer.vue";
 const { $pwa } = useNuxtApp();
 
 onMounted(() => {
@@ -15,9 +16,9 @@ onMounted(() => {
 
     <button @click="$pwa.updateServiceWorker()">Reload</button>
   </div> -->
-  <div>
-    <Header />
-    <slot />
-    <Footer />
+  <div class="grid grid-rows-[auto_1fr_auto] min-h-screen">
+    <Header></Header>
+    <slot></slot>
+    <Footer></Footer>
   </div>
 </template>

@@ -28,10 +28,12 @@ const links = [
 </script>
 
 <template>
-  <footer class="relative bg-gray-darker md:flex gap-6 lg:gap-24 lg:px-16">
+  <footer
+    class="relative bg-gray-darker md:flex gap-6 lg:gap-24 lg:px-16 overflow-hidden"
+  >
     <img
       class="absolute h-[170%] top-1/2 -translate-y-1/2 object-center right-0 opacity-10 hidden lg:block"
-      src="../assets/images/why-sharjah.webp"
+      src="../../assets/images/why-sharjah.webp"
       draggable="false"
       loading="lazy"
     />
@@ -40,7 +42,7 @@ const links = [
     >
       <img
         class="max-w-[349px] object-cover"
-        src="../assets/images/Logo_WHITE.png"
+        src="../../assets/images/Logo_WHITE.png"
       />
       <p class="mt-6">
         Source: Sharjah Update | Published:<br />
