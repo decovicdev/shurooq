@@ -64,9 +64,10 @@ export default defineNuxtConfig({
 		{
 			path: "~/components",
 			extensions: [".vue"],
-			pathPrefix: false,
+			// pathPrefix: false,
 		},
 	],
+
 	pages: true,
 	postcss: {
 		plugins: {
