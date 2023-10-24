@@ -3,7 +3,7 @@ import { Dialog, DialogOverlay, DialogPanel } from "@headlessui/vue";
 import img8 from "../assets/images/european_global_banking_finance_awards.webp";
 import img4 from "../assets/images/sharjah_government_communication_award.webp";
 import img5 from "../assets/images/global_infrastructure_partners.webp";
-import img3 from '"../assets/images/ministry_of_foreign_affairs.webp';
+import img3 from "../assets/images/ministry_of_foreign_affairs.webp";
 import img2 from "../assets/images/site_selection_magazine.webp";
 import img1 from "../assets/images/arabian_travel_awards.webp";
 import img7 from "../assets/images/architect_awards.webp";
