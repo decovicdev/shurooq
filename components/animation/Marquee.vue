@@ -3,20 +3,27 @@ import { Motion } from "motion/vue";
 defineOptions({
 	inheritAttrs: false,
 });
+
+const { direction = "right" } = defineProps<{ direction?: "left" | "right" }>();
+
+const transition = {
+	easing: "linear",
+	repeat: Infinity,
+	duration: 5,
+	direction: direction === "right" ? "normal" : "reverse",
+} as const;
 </script>
 
 <template>
-	<div class="overflow-hidden">
-		<Motion
-			v-bind="$attrs"
-			:initial="{ x: 0 }"
-			:animate="{
-				x: 'calc(-50% - 32px)',
-			}"
-			:transition="{ easing: 'linear', repeat: Infinity, duration: 5 }"
-			class="w-max">
-			<slot></slot>
-			<slot></slot>
-		</Motion>
-	</div>
+	<Motion
+		v-bind="$attrs"
+		:initial="{ x: 0 }"
+		:animate="{
+			x: 'calc(-50% - 32px)',
+		}"
+		:transition="transition"
+		class="w-max">
+		<slot></slot>
+		<slot></slot>
+	</Motion>
 </template>
