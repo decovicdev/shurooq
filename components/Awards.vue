@@ -1,44 +1,52 @@
 <script lang="ts" setup>
 import { Dialog, DialogOverlay, DialogPanel } from "@headlessui/vue";
+import img8 from "../assets/images/european_global_banking_finance_awards.webp";
+import img4 from "../assets/images/sharjah_government_communication_award.webp";
+import img5 from "../assets/images/global_infrastructure_partners.webp";
+import img3 from '"../assets/images/ministry_of_foreign_affairs.webp';
+import img2 from "../assets/images/site_selection_magazine.webp";
+import img1 from "../assets/images/arabian_travel_awards.webp";
+import img7 from "../assets/images/architect_awards.webp";
+import img6 from "../assets/images/slo.webp";
 
 const awards = [
 	{
-		imageSrc: import.meta.resolve("../assets/images/arabian_travel_awards.webp"),
+		imageSrc: img1,
 		title: "Best Tourism Investment Authority",
 		date: "2019",
 	},
 	{
-		imageSrc: import.meta.resolve("../assets/images/site_selection_magazine.webp"),
+		imageSrc: img2,
 		title: "Top Investment Promotion Agency",
 		date: "2015",
 	},
 	{
-		imageSrc: import.meta.resolve("../assets/images/ministry_of_foreign_affairs.webp"),
+		imageSrc: img3,
 		title: "Partners Award of the Ministry of Foreign Affairs and International Cooperation",
 		date: "2018",
 	},
 	{
-		imageSrc: import.meta.resolve("../assets/images/sharjah_government_communication_award.webp"),
+		imageSrc: img4,
 		title: "Best Government Communication ",
 		date: "2015",
 	},
 	{
-		imageSrc: import.meta.resolve("../assets/images/global_infrastructure_partners.webp"),
+		imageSrc: img5,
 		title: "Regional Infrastructure Award",
 		date: "2018",
 	},
 	{
-		imageSrc: import.meta.resolve("../assets/images/slo.webp"),
+		imageSrc: img6,
 		title: "Honoured for Excellence in Quality, From Business Triumph Festival ",
 		date: "2018",
 	},
 	{
-		imageSrc: import.meta.resolve("../assets/images/architect_awards.webp"),
+		imageSrc: img7,
 		title: "GCC Hospitality and Leisure Project of the Year",
 		date: "2012",
 	},
 	{
-		imageSrc: import.meta.resolve("../assets/images/european_global_banking_finance_awards.webp"),
+		imageSrc: img8,
 		title: "The Banking Awards 2013 - FDI Agency of the Year in the Mena region",
 		date: "2013",
 	},
