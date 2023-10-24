@@ -3,6 +3,9 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxtjs/i18n", "nuxt-headlessui"],
+	build: {
+		transpile: ["motion", "motion/vue"],
+	},
 	css: ["~/assets/css/main.css"],
 	experimental: {
 		payloadExtraction: false,
