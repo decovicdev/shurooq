@@ -47,10 +47,12 @@ const links = [
 			<Menu class="relative" as="div">
 				<MenuButton class="uppercase">{{ locale }}</MenuButton>
 				<MenuItems class="absolute grid">
-					<MenuItem v-for="locale in availableLocales" class="uppercase" as="button">
-						<button @click="setLocale(locale)">
-							{{ locale }}
-						</button>
+					<MenuItem
+						@click="setLocale(locale)"
+						v-for="locale in availableLocales"
+						class="uppercase"
+						as="button">
+						{{ locale }}
 					</MenuItem>
 				</MenuItems>
 			</Menu>
