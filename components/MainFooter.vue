@@ -8,7 +8,7 @@ const links = [
 	},
 	{
 		name: "Shurooq",
-		link: "/",
+		link: "/h",
 	},
 	{
 		name: "Invest in sharjah",
@@ -56,9 +56,11 @@ const links = [
 		</div>
 		<div class="p-4 md:py-12">
 			<h2 class="mb-4 text-xl text-white/70">Menu</h2>
-			<nav v-for="{ link, name } in links" class="grid gap-3">
-				<NuxtLink :to="link" class="flex items-center gap-1.5 text-white/50">
-					{{ name }} <ChevronRightIcon class="h-2.5" />
+			<nav class="grid gap-3">
+				<NuxtLink v-for="{ link, name } in links" :to="link">
+					<p class="flex items-center gap-1 text-white/50">
+						{{ name }} <ChevronRightIcon class="h-2.5" />
+					</p>
 				</NuxtLink>
 			</nav>
 			<div class="mt-8 max-w-prose text-sm text-gray-light">
