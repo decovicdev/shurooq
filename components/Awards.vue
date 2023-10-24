@@ -27,7 +27,7 @@ const src_s = [
 			<p class="mb-5 mt-16 text-center text-xl font-bold">Awards</p>
 			<div class="grid grid-cols-2 place-items-center gap-10 md:grid-cols-4">
 				<img
-					class="h-[100px] object-fill saturate-0 hover:saturate-100"
+					class="h-[100px] object-fill saturate-0 hover:saturate-200"
 					:src="src"
 					v-for="src in src_s" />
 			</div>
