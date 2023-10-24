@@ -2,7 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	@font-face {
+		font-family: "Meta Pro";
+		src:
+			local("Meta Pro"),
+			url("../fonts/FFMetaProBold.TTF") format("truetype");
+		font-display: swap;
+		font-weight: 700;
+	}
+	@font-face {
+		font-family: "Meta Pro";
+		src:
+			local("Meta Pro"),
+			url("../fonts/FFMetaProThin.TTF") format("truetype");
+		font-display: swap;
+		font-weight: 100;
+	}
+	@font-face {
+		font-family: "Meta Pro";
+		src:
+			local("Meta Pro"),
+			url("../fonts/FFMetaProLight.TTF") format("truetype");
+		font-display: swap;
+		font-weight: 200;
+	}
+	@font-face {
+		font-family: "Meta Pro";
+		src:
+			local("Meta Pro"),
+			url("../fonts/FFMetaProRegular.TTF") format("truetype");
+		font-display: swap;
+		font-weight: 400;
+	}
+	@font-face {
+		font-family: "Meta Pro";
+		src:
+			local("Meta Pro"),
+			url("../fonts/FFMetaProMedium.TTF") format("truetype");
+		font-display: swap;
+		font-weight: 500;
+	}
+	@font-face {
+		font-family: "Meta Pro";
+		src:
+			local("Meta Pro"),
+			url("../fonts/FFMetaProBlk.TTF") format("truetype");
+		font-display: swap;
+		font-weight: 900;
+	}
+}
+
 @layer utilities {
+	body {
+		font-family: "Meta Pro";
+	}
+
 	::-webkit-scrollbar {
 		height: theme(height.2);
 		width: theme(width.2);
