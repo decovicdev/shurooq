@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxtjs/i18n", "nuxt-headlessui"],
 	build: {
-		transpile: ["motion", "motion/vue"],
+		transpile: ["motion/vue", "swiper/element/bundle", "swiper", "swiper/css"],
 	},
 	css: ["~/assets/css/main.css"],
 	experimental: {

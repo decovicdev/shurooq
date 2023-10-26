@@ -11,6 +11,9 @@ dependencies:
   motion:
     specifier: ^10.16.4
     version: 10.16.4
+  swiper:
+    specifier: ^11.0.1
+    version: 11.0.1
 
 devDependencies:
   '@nuxt/devtools':
@@ -9516,6 +9519,11 @@ packages:
       csso: 5.0.5
       picocolors: 1.0.0
     dev: true
+
+  /swiper@11.0.1:
+    resolution: {integrity: sha512-pxVygCS5CVL2pRYSnv8RbjlOC/nN+JrAn5/JM0WBQzIWisv9FYe1s69KEB82TOeqh/T3zc9zks/gxctY6G/XMg==}
+    engines: {node: '>= 4.7.0'}
+    dev: false
 
   /synckit@0.8.5:
     resolution: {integrity: sha512-L1dapNV6vu2s/4Sputv8xGsCdAVlb5nRDMFU/E27D44l5U6cw1g0dGd45uLc+OXjNMmF4ntiMdCimzcjFKQI8Q==}
