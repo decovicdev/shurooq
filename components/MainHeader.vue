@@ -33,7 +33,7 @@ const links = [
 
 <template>
 	<header
-		class="sticky top-0 isolate z-[1000] flex w-full items-center justify-between bg-white px-3 py-3 text-black lg:px-16 lg:py-6">
+		class="sticky top-0 isolate z-[1000] flex w-full items-center justify-between bg-white px-3 py-3 text-black shadow-xl lg:px-16 lg:py-6">
 		<img src="../assets/images/logo_black.webp" class="hidden h-[70px] lg:block" />
 		<img src="../assets/images/logo-virtical.png" class="h-[80px] lg:hidden" />
 		<nav class="hidden items-center gap-8 lg:flex">

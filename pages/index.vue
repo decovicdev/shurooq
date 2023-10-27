@@ -1,7 +1,7 @@
 <template>
 	<Hero />
 	<WhySharjah />
-	<!-- <EventsNews /> -->
+	<EventsNews />
 	<Partners />
 	<Awards />
 </template>

@@ -8,7 +8,7 @@ const links = [
 	},
 	{
 		name: "Shurooq",
-		link: "/h",
+		link: "/hello",
 	},
 	{
 		name: "Invest in sharjah",

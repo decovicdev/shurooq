@@ -5,7 +5,6 @@ defineOptions({
 });
 
 const { direction = "right" } = defineProps<{ direction?: "left" | "right" }>();
-
 const transition = {
 	easing: "linear",
 	repeat: Infinity,
