@@ -2,9 +2,9 @@ import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt", "@nuxtjs/i18n", "nuxt-headlessui"],
+	modules: ["@nuxtjs/tailwindcss", "nuxt-headlessui", "@vite-pwa/nuxt", "@nuxtjs/i18n"],
 	build: {
-		transpile: ["motion/vue", "swiper/element/bundle", "swiper", "swiper/css"],
+		transpile: ["motion/vue", "motion", "swiper/vue", "swiper", "swiper/css"],
 	},
 	css: ["~/assets/css/main.css"],
 	experimental: {
@@ -70,7 +70,6 @@ export default defineNuxtConfig({
 			// pathPrefix: false,
 		},
 	],
-
 	pages: true,
 	postcss: {
 		plugins: {
